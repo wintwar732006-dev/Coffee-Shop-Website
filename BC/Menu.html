@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="nav.js" defer></script>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="menu-page">
+    <nav class="navbar">
+          <image class="logo_photo" src="imgs/logo.png"></image>
+        <ul class="ul_nav">
+            <li ><a  href="home.html">Home</a></li>
+            <li ><a class="active" href="Menu.html">Menu</a></li>
+            <li><a href="OurStory.html">Our Story</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="Order.html">Order Now</a></li>
+        </ul>
+
+    </nav>
+
+
+    
+
+    <div class="menu_section_head">
+        <div class="above_menu_cards">
+
+          <div class="head_text">
+            <h5 id="h5of_head_text">THE GOLDEN BEAN CAFE</h5>
+            <h1 id="h1of_head_text">OUR MENU</h1>
+         </div>
+
+         <div id="search">
+                        <input type="text" class="placeholder_text" placeholder="      Search coffee, pastry...">
+
+         </div>
+
+         <div class="list_of_menu">
+            <div class="MenuLists">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="coffee">Coffee</button>
+               <button class="filter-btn" data-category="teas">Teas</button>
+                <button class="filter-btn" data-category="pastry">Pasteries</button>
+                <button class="filter-btn" data-category="savory">Savory & Meals</button>
+               <button class="filter-btn" data-category="cold-drinks">Drinks</button>
+            </div>
+         </div>
+        </div>
+    </div>
+<div>
+    <div class="Menu_cards">
+
+            <div id="menu_cards" class="card" data-category="coffee" category="Coffee, Hot, Caffeine">
+                <p id="pofCard">50 LEFT</p>
+                
+                     <div class="imageBox" ><img class="img" src="imgs/blend.png"></div>  
+
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Algre Origin Blend
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Coffee</p>
+                    <p id="p2"> Hot</p>
+                </div> <br><br><br> <hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+                        </div>
+                        
+
+     
+
+
+         
+
+        
+            <div id="menu_cards" data-category="coffee, cold-drinks" class="card" category="Coffee, Caffeine, Cold, Contains-Milk, Sweet">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/icedVanillaLatte.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Iced Vanilla Latte                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Coffee</p>
+                    <p id="p2"> Cold</p>
+                    <p id="p3"> Sweet</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" data-category="coffee" class="card" category="Coffee, Hot, Caffeine, Contain-Milk, Sweet">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/caramelMacchiate.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Caramel Macchiate               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Coffee</p>
+                    <p id="p2"> Hot</p>
+                    <p id="p3"> Sweet</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        </div>
+
+
+            <div class="card" id="menu_cards" data-category="coffee" category="Coffee, Hot, Caffeine, Contain-Milk">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/Cappuccino.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Cappuccino
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Coffee</p>
+                    <p id="p2"> Hot</p>
+                    <p id="p3"> Milk</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+                        </div>
+
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="coffee, cold-drinks" category="Coffee, Hot, Caffeine, Contains-Milk, Sweet, Chocolate">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/Mocha.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Mocha               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Coffee</p>
+                    <p id="p2"> Hot</p>
+                    <p id="p3"> Chocolate</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="pastry" category="Pastry, Bakery, Contains-Dairy">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/butterCrossiant.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Signature Butter Crossiant               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Pastery</p>
+                    <p id="p2"> Bakery</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        </div>
+
+            <div class="card" data-category="pastry" category="Pastry, Bakery, Sweet">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/blueberryScone.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Blueberry Scone
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Pastry</p>
+                    <p id="p2"> Sweet</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+                        </div>
+
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="pastry" category="Pastry, Bakery, Sweet, Contains-Caffeine">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/espressoSwirlMuffin.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Espresso Swirl Muffin               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Pastry</p>
+                    <p id="p2"> Muffin</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 7, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="pastry" category="Pastry, Bakery, Sweet, Fruit">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/seasonalFruitTart.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Seasonal Fruit Tart             </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Pastry</p>
+                    <p id="p2"> Fruit</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        
+
+            <div class="card" data-category="pastry" category="Pastry, Bakery, Sweet, Kids-Friendly">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/chocolateChunk.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Chocolate Chunk Cookie
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Cookie</p>
+                    <p id="p2"> Sweet</p>
+                </div> <br><br><br><hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+            </div>
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="pastry" category="Pastry, Bakery, Sweet">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/lemonPoppySeedLoaf.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Lemon Poppy Seed Loaf               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Loaf</p>
+                    <p id="p2"> Lemon</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="pastry" category="Pastry, Bakery, Sweet">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/CinnamonRoll.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Cinnamon Roll</h2>
+                <div class="ah_nyun">
+                    <p id="p1">Cinnamon</p>
+                    <p id="p2"> Roll</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        
+
+            <div class="card" data-category="pastry" category="Pastry, Bakery, Sweet, Contains-Nuts">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/almondCroissant.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Almond Crossiant
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Almond</p>
+                    <p id="p2"> Nuts</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+            </div>
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="pastry" category="Pastry, Bakery, Sweet">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/bananaBread.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Banana Bread               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Banana</p>
+                    <p id="p2"> Bread</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 7, 500 MMK</div>
+              </div>
+          </div>
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="pastry" category="Savory, Vegetarian, Toast, Healthy">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/avocadoToast.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Avocado Toast             </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Savory</p>
+                    <p id="p2"> Healthy</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+            </div>
+
+
+        
+            <div class="card" data-category="savory" category="Savory, Contains-Meat, Contains-Dairy">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/quicheLorraine.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Quiche Lorraine
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Quiche</p>
+                    <p id="p2"> Meat</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+               </div>
+         </div>
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="savory" category="Savory, Vegetarian, Sandwich">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/roastedVegetablePanini.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Roasted Vegetable Panini               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Panini</p>
+                    <p id="p2"> Veggie</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+            </div>
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="savory" category="Savory, Contains-Meat, Contains-Dairy, Sandwich">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/turkeySandwich.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Trukey & Cheese Sandwich               </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Sandwich</p>
+                    <p id="p2"> Turkey</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 10, 500 MMK</div>
+            </div>
+            </div>
+
+
+
+            <div class="card" data-category="savory" category="Savory, Vegetarian, Contains-Dairy, Sandwich">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/capresePanini.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Caprese Panini
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Panini</p>
+                    <p id="p2"> Veggie</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 9, 500 MMK</div>
+            </div>
+            </div>
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="savory" category="Savory, Contains-Meat, Wrap">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/chickenWrap.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Chicken Pesto Wrap              </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Chicken</p>
+                    <p id="p2"> Wrap</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 10, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="savory" category="Savory, Soup">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/soupDay.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Soup of the Day             </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Soup </p>
+                    <p id="p2"> Warm</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 7, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        
+
+        
+            <div class="card" data-category="savory" category="Savory, Vegetarian, Vegan, Healthy">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/sideSalad.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Side Salad
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Salad</p>
+                    <p id="p2"> Vegan</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+                        </div>
+
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="cold-drinks" category="Drink, Cold, Caffeine, Dairy-Free, Black">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/coldBrew.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Cold Brew              </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Drink</p>
+                    <p id="p2"> Cold</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="cold-drinks" category="Drink, Cold, Sweet, Kids-Friendly, Dairy-Free">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/lemonade.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Lemonade             </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Drink</p>
+                    <p id="p2"> Sweet</p>
+                </div> <br><br><br> <hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        
+
+            <div class="card" data-category="cold-drinks" category="Drink, Cold, Sweet, Kids-Friendly, Healthy, Dairy-Free">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/orangejuice.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Fresh Orange Juice
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Juice</p>
+                    <p id="p2"> Orange</p>
+                </div> <br><br><br> <hr>
+
+                <div class="price_card"> 7, 500 MMK</div>
+            </div>
+                        </div>
+
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="cold-drinks" category="Drink, Cold, Contains-Milk, Sweet, Kids-Friendly">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/chocolateMilk.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Chocolate Milk              </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Drink</p>
+                    <p id="p2"> Chocolate</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 5, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div  id="menu_cards" class="card" data-category="cold-drinks"  chocolate="Drink, Cold, Zero-Calorie, Kids-Friendly, Dairy-Free">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/water.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Bottled Water            </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">water</p>
+                    <p id="p2"> pure</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 3, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        
+
+            <div class="card" data-category="teas" category="Tea, Hot, Caffeine, Dairy-Free">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/earlGrey.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard1">
+                  Earl Grey
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Tea</p>
+                    <p id="p2"> EarlGrey</p>
+                </div> <br><br><br> <hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+                        </div>
+
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="teas" category="Tea, Hot, Decaf, Dairy-Free, Relaxing">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/Chamomile.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                    Chamomile            </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Tea</p>
+                    <p id="p2"> Relax</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="teas" category="Tea, Hot, Caffeine, Dairy-Free, Healthy">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/Greentea.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Green tea             </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">tea</p>
+                    <p id="p2"> green</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        
+
+            <div class="card" data-category="teas" category="Tea, Hot, Decaf, Dairy-Free, Relaxing">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/peppermini.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                  Peppermint
+                </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">tea</p>
+                    <p id="p2"> mint</p>
+                </div> <br><br><br> <hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+                        </div>
+
+
+         
+
+        
+            <div id="menu_cards" class="card" data-category="teas" category="Tea, Hot, Decaf, Dairy-Free">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/berry.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                 Hibiscus Berry         </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">Tea</p>
+                    <p id="p2"> Berry</p>
+                </div> <br><br><br> <hr>
+
+                <div class="price_card"> 6, 500 MMK</div>
+            </div>
+                        </div>
+
+
+
+
+        
+            <div id="menu_cards" class="card" data-category="teas" category="Coffee">
+                <p id="pofCard">50 LEFT</p>
+                     <div class="imageBox" ><img class="img" src="imgs/chaiLatte.png"></div>  
+            <div class="Card_Text">
+                <h2 id="h2ofCard">
+                   Chai Latte           </h2>
+
+                <div class="ah_nyun">
+                    <p id="p1">tea</p>
+                    <p id="p2"> chai</p>
+                </div>  <br><br><br><hr>
+
+                <div class="price_card"> 8, 500 MMK</div>
+            </div>
+                        </div>
+
+
+        
+
+    </div>
+</div>
+</div>
+
+        
+<footer >
+    
+         <div class="footerFooter">
+            <div class="footer-grid">
+
+                    <div class="footer-col">
+                        <div class="footer-head">Quick Links</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="menu.html">Shop</a></li>
+                                <li><a href="contactUs.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Account</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="create.html">Register</a></li>
+                                <li><a href="profile.html">Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Other</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="terms.html">Terms and Conditions</a></li>
+                                <li><a href="privacy.html">Privacy And Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                   
+                    <div class="footer-grid1">
+                         <div class="footer-col">
+                        <div class="footer-head">Follow Us</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <a href="facebook.com"><image class="ft" src="imgs/facebooks.png"></image></a>
+                                <a href="discord.com"><image class="ft" src="imgs/discords.png"></image></a>
+                                <a href="telegram.com"><image class="ti" src="imgs/telegrams.png"></image></a>
+                                <a href="instagram.com"><image  class="ti" src="imgs/instagrams.png"></image></a>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="location_space">
+                        <p>Store Location:</p>
+                        <a href="googlemap.com"><image class="locpng" src="imgs/location.png"></image></a>
+                    </div>
+
+                <div class="copyright">
+                    <p id="cp">Copy Right 2026 | All Rights Reserved.</p> 
+                    <p id="cp1">Coded by HWWH.</p>
+                </div>
+                </div>
+                    </div>
+
+               
+         </div>
+            </footer>
+            <script src="Menu.js" ></script>
+</body>
+</html>

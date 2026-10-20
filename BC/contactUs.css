@@ -1,0 +1,347 @@
+
+.navbar{
+    background: #603A24; 
+    display: flex; 
+    align-items: center; 
+    padding: 12px 24px; 
+    gap: 20px;  
+}
+.logo_photo {
+    border-radius: 100px; 
+    width: 50px; 
+    height: 50px; 
+    padding: 4px;  
+    object-fit: contain;
+}
+.ul_nav {
+   display: flex; 
+   align-items: center; 
+   list-style: none; 
+   margin: 0; 
+   gap: 12px;
+   width: 100%; 
+   margin-top: 15px; 
+}
+
+.navbar  li a{
+    width: 80px; 
+    height: 35px; 
+    background-color: #734A31; 
+    display:inline-block; 
+    margin: 2px; 
+    align-content: center;
+    font-weight: bold; 
+    border-radius: 20px; 
+    font-size: 15px;
+    gap: 20px; 
+    margin-top: -35px; 
+    text-decoration: none; 
+    font-family: sans-serif; 
+    transition: background-color 0.3s; 
+    color: white; 
+    padding: 4px 10px; 
+    text-align: center; 
+
+    
+}
+.ul_nav li a:hover{
+    background-color: #734a31c1;
+}
+.ul_nav li:last-child{
+    margin-left: auto; 
+}
+#h5_headText{
+    font-size: 15px;
+    font-family: inter; 
+    color: #915b37;
+    text-align: center;
+    margin-top: 35px; 
+    letter-spacing: 2.5px;
+}
+#h1_headText{
+    font-family: inter;
+    font-size: 38px;
+    color: #653e25;
+    text-align: center;
+    margin-top: -15px;
+}
+.box{
+     width: 350px; 
+    height: 600px; 
+    border: 1px solid #e0e0e0; 
+    border-radius: 20px; 
+    margin-top: -25px; 
+    background-color: white; 
+    margin-left: 15px; 
+    margin-right: 15px; 
+    margin-bottom: 30px; 
+    float: left;
+    position: relative;  
+}
+.head_box{
+    color: #5c3923; 
+    font-family: Montserrat; 
+    font-size: 13px; 
+    margin-left: 20px; 
+}
+.Pic{
+    width: 50px; 
+    margin-right: 10px; 
+    margin: 20px; 
+}
+.LPic{
+    width: 38px; 
+    margin-right: 13px; 
+    margin: 20px; 
+}
+label{
+    font-size: 17px; 
+    color: rgb(11, 11, 11); 
+    position: relative; 
+    float: right; 
+    margin-right: 210px; 
+    margin-top: 25px; 
+}
+.LP{
+    font-size: 17px; 
+    color: rgb(11, 11, 11); 
+    position: relative; 
+    float: right; 
+    margin-right: 125px; 
+}
+.CSh3{
+    font-size: 14px; 
+    color: rgb(133, 131, 131); 
+    margin-left: 95px; 
+    margin-top: -25px; 
+}
+.CSh30{
+    font-size: 14px; 
+    color: rgb(133, 131, 131); 
+    margin-left: 95px; 
+    margin-top: -25px; 
+}
+.location{
+    margin-top: 20px; 
+}
+#inputbox{
+    transition: 0.3s ease;
+    width: 280px; 
+    height: 50px; 
+    margin: auto; 
+    margin-left: 28px; 
+    margin-top: 25px; 
+    border-radius: 8px; 
+    background-color: #f7f3f3;
+    border: 0.5px solid #eae8e8; 
+}
+#inputbox:focus{
+    background-color: white; 
+    border: 0.5px solid #8d5533; 
+    outline: none; 
+}
+#inputbox::placeholder{
+    padding-left: 18px; 
+}
+#inputbox1{
+    width: 280px; 
+    height: 170px; 
+    margin: auto; 
+    margin-left: 28px; 
+    margin-top: 25px; 
+    border-radius: 8px; 
+    background-color: #f7f3f3;
+    border: 0.5px solid #eae8e8; 
+}
+#inputbox1:focus{
+    background-color: white; 
+    border: 0.5px solid #8d5533; 
+    outline: none; 
+}
+#inputbox1::placeholder{
+    padding-left: 18px; 
+    position: relative; 
+    padding-top: -40px; 
+}
+.btnbx2{
+    width: 280px; 
+    height: 50px; 
+    margin: auto; 
+    margin-left: 28px; 
+    margin-top: 100px; 
+    border-radius: 8px; 
+    background-color: #5c3923; 
+    color: white; 
+    border-style: none; 
+    font-weight: bold; 
+    transition: 0.3s ease;
+}
+.btnbx2:hover{
+    background-color: #8f5836; 
+    color: #ffffff;
+    width: 280px; 
+    height: 50px; 
+    margin: auto; 
+    margin-left: 28px; 
+    margin-top: 100px; 
+    border-radius: 8px; 
+}
+.social{
+    width: 280px; 
+    height: 50px; 
+    margin: auto; 
+    margin-left: 28px; 
+    margin-top: 25px; 
+    border-radius: 8px; 
+    background-color: #f7f3f3;
+    border: 0.5px solid #eae8e8; 
+    transition: 0.3s ease; 
+    transform: 0.3s upset;
+}
+.socialPic{
+    width: 50px; 
+    margin-left: 5px;  
+}
+.social h4{
+    margin-left: 65px; 
+    margin-top: -40px;  
+    font-family: Times, serif; 
+}
+.social:hover{
+    background-color: white; 
+    border: 0.5px solid #8d5533;
+    cursor: pointer;  
+}
+.hr{
+    color: #d7d1d1; 
+}
+.RTime{
+    width: 40px; 
+    margin: 5px; 
+}
+.LabelTime{
+    font-size: 17px; 
+    color: rgb(11, 11, 11); 
+    position: relative; 
+    float: right; 
+    margin-right: 180px; 
+    margin-top: 15px; 
+}
+.LabelP{
+    font-size: 14px; 
+    color: rgb(133, 131, 131); 
+    margin-left: 60px;
+     
+    margin-top: -15px; 
+}
+footer{
+    position: ralative; 
+    margin-top: 800px;
+}
+.a3boxes{
+    margin-left: 50px; 
+    margin-top: 70px; 
+}
+footer {
+    position: relative; 
+    margin-top: 200px; 
+}
+.footer-head{
+    height: 30px; 
+    width: 170px; 
+    background-color: #3f2718; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 20px; 
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center; 
+    align-content: center;
+    align-items: center;
+}
+.footer-ul li{
+    list-style-type: none;
+    font-size: 18px; 
+    font-weight: medium; 
+
+}
+.footer-ul li a{
+    text-decoration: none;
+    color: white; 
+    transition: 0.3s ease-in-out; 
+    position: relative; 
+    display: inline-block; 
+    margin-bottom: 10px; 
+}
+.footer-ul li a::after{
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    transform: scaleX(0); 
+    transform-origin: right; 
+    transition: transform 0.3s ease-in-out; 
+    background-color: #9A5B32;
+
+}
+.footer-ul li a:hover::after{
+    transform-origin: left; 
+    transform: scaleX(1); 
+}
+footer{
+    background-color: #734a31fb; 
+    height: 350px; 
+    margin-top: 700px; 
+}
+.footer-col{
+    float: left;
+    margin: 40px; 
+
+}
+.ft{
+    width: 50px; 
+}
+.ti{
+    width: 50px; 
+}
+.location_space p{
+    color: white; 
+    font-weight: bold;
+    font-size: 18px; 
+    margin-left: 830px; 
+    position: absolute; 
+    margin-top: -30px; 
+}
+.locpng{
+    border-radius: 20px; 
+    width: 225px; 
+    height: 100px; 
+    margin-left: 50px; 
+}
+.location_space{
+    padding-top: 150px; 
+}
+#cp{
+    float: left; 
+    font-size: 15px; 
+    margin-left: 50px; 
+}
+#cp1{
+    position: absolute; 
+    margin-bottom: 0px; 
+    font-size: 15px; 
+    margin-left: 950px; 
+}
+.box{
+    transition: transform 0.5s ease, box-shadow 0.5s ease; 
+}
+.box:hover{
+    transform: translateY(-8px);
+}
+.ul_nav li a.active{
+       background-color: #3f2718 ; 
+        border: 1px solid #efefef; 
+        
+    }

@@ -1,0 +1,404 @@
+[
+    {
+        
+         "id":2,
+         "category": ["coffee ,cold-drinks"], 
+         "item_name":"Iced Americano",
+         "price_mmk":8500,
+         "stock":50,
+         "tags": ["Dairy-Free", "Lactose-Free", "Caffeine", "coffee", "Contains-Caffeine", "drinks", "cold", "fresh"],
+         "image": "imgs/icedVanillaLatte.png"
+
+     },
+    
+    {
+        
+         "category": ["coffee ,cold-drinks"],
+         "id":3,
+         "item_name":"Vanilla Milkshake",
+         "price_mmk":7000,
+         "stock":100,
+         "tags":["Decaf", "Kids-Friendly", "Contains-Milk", "Milkshake", "vanilla", "milk"],
+         "image": "imgs/vanillaMilkshake.png"
+        
+        },
+    
+    
+   
+   {
+    
+        "id":7,
+        "category": "coffee",
+        "item_name":"Algre Origin Blend",
+        "price_mmk":8500,
+        "stock":50,
+        "tags":["Coffee", "Hot", "Caffeine", "blend", "bitter"], 
+        "image": "imgs/blend.png"
+    
+    },
+   
+   {
+    
+        "id": 8,
+        "image": "imgs/icedVanillaLatte.png", 
+        "category": ["coffee ,cold-drinks"],
+        "item_name":"Iced Vanilla Latte",
+        "price_mmk": 9500,
+        "stock":50,
+        "tags":["Coffee", "Cold", "Caffeine", "Contains-Milk", "Sweet", "vanilla", "ice", "drink", "fresh", "Latte"]
+    
+    },
+   
+   {
+    
+        "id":9,
+        "image": "imgs/caramelMacchiate.png", 
+        "category": "coffee", 
+        "item_name":"Caramel Macchiato",
+        "price_mmk":9500,
+        "stock":50,
+        "tags":["Coffee", "Hot", "Caffeine", "Contains-Milk", "Sweet", "caramel", "macchiato"]
+    
+    },
+   
+   {
+    
+         "id":10,
+         "image": "imgs/Cappuccino.png", 
+         "category": "coffee", 
+         "item_name":"Cappuccino",
+         "price_mmk":8500,
+         "stock":"50",
+         "tags":["Coffee", "Hot", "Caffeine", "Contains-Milk"]
+
+    },
+    
+    {
+        "id":11,
+        "category": ["coffee ,cold-drinks"],
+        "item_name":"Mocha",
+        "price_mmk":9500,
+        "stock":50,
+        "tags":["Coffee", "Hot", "Caffeine", "Contains-Milk", "Sweet", "Chocolate"], 
+        "image": "imgs/Mocha.png"
+        },
+        
+    {
+        "id":12,
+        "category": "pastry", 
+        "item_name":"Signature Butter Croissant",
+        "price_mmk":8500,
+        "stock":20,
+        "tags":["Pastry", "Bakery", "Contains-Dairy", "butter", "Crossiant"],
+        "image": "imgs/butterCrossiant.png"
+        
+        },
+        
+    {
+        "id":13,
+        "category": "pastry",
+        "item_name":"Blueberry Scone",
+        "price_mmk":9500,
+        "stock":15,
+        "tags":["Pastry", "Bakery", "Sweet", "Blueberry", "Scone", "Berry", "Bread"], 
+        "image": "imgs/blueberryScone.png"
+        
+        },
+        
+    {
+        "id":14,
+        "category": "pastry",
+        "item_name":"Espresso Swirl Muffin",
+        "price_mmk":7500,
+        "stock":15,
+        "tags":["Pastry", "Bakery", "Sweet", "Contains-Caffeine", "Muffin", "Espresso"], 
+        "image": "imgs/espressoSwirlMuffin.png"
+        
+        },
+        
+    {
+        "id":15,
+        "category": "pastry",
+        "item_name":"Seasonal Fruit Tart",
+        "price_mmk":9500,
+        "stock":10,
+        "tags":["Pastry", "Bakery", "Sweet", "Fruit", "Tart", "Sweet"],
+        "image": "imgs/seasonalFruitTart.png"
+        
+        },
+        
+    {
+        "id":16,
+        "category": "pastry",
+        "item_name":"Chocolate Chunk Cookie",
+        "price_mmk":6500,
+        "stock":30,
+        "tags":["Pastry", "Bakery", "Sweet", "Kids-Friendly", "Chocolate", "Chunk", "Cookie"], 
+        "image": "imgs/chocolateChunk.png"
+        
+        },
+        
+    {
+        "id":17,
+        "category": "pastry",
+        "item_name":"Lemon Poppy Seed Loaf",
+        "price_mmk":8500,
+        "stock":15,
+        "tags":["Pastry", "Bakery", "Sweet", "Lemon", "Loaf", "Bread"], 
+        "image": "imgs/lemonPoppySeedLoaf.png"
+        },
+        
+    {
+        "id":18,
+        "category": "pastry",
+        "item_name":"Cinnamon Roll",
+        "price_mmk":8500,
+        "stock":20,
+        "tags":["Pastry", "Bakery", "Sweet", "Cinnamon", "Roll", "Bread"], 
+        "image": "imgs/CinnamonRoll.png"
+        
+        },
+        
+    {
+        "id":19,
+        "category": "pastry",
+        "item_name":"Almond Croissant",
+        "price_mmk":9500,
+        "stock":15,
+        "tags":["Pastry", "Bakery", "Sweet", "Contains-Nuts", "Almond", "Crossiant", "Bread"], 
+        "image": "imgs/almondCroissant.png"
+        
+        },
+        
+    {
+        "id":20,
+        "category": "pastry",
+        "item_name":"Banana Bread",
+        "price_mmk":7500,
+        "stock":20,
+        "tags":["Pastry", "Bakery", "Sweet", "Banana", "Milk", "Sweet", "Fruit"],
+        "image": "imgs/bananaBread.png"
+        
+        },
+        
+    {
+        "id":21,
+        "category": "savory", 
+        "item_name":"Avocado Toast",
+        "price_mmk":8500,
+        "stock":15,
+        "tags":["Savory", "Vegetarian", "Toast", "Healthy", "Fruit", "Toast", "Avocado"],
+        "image": "imgs/avocadoToast.png"
+        
+        },
+        
+    {
+        "id":22,
+        "category": "savory",
+        "item_name":"Quiche Lorraine",
+        "price_mmk":9500,
+        "stock":10,
+        "tags":["Savory", "Contains-Meat", "Contains-Dairy"],
+        "image": "imgs/quicheLorraine.png"
+        
+        },
+        
+    {
+        "id":23,
+        "category": "savory",
+        "item_name":"Roasted Vegetable Panini",
+        "price_mmk":9500,
+        "stock":15,
+        "tags":["Savory", "Vegetarian", "Sandwich", "Vegetable", "Panini"],
+        "image":"imgs/roastedVegetablePanini.png"
+        
+        },
+        
+    {
+        "id":24,
+        "category":"savory",
+        "item_name":"Turkey & Cheese Sandwich",
+        "price_mmk":10500,
+        "stock":20,
+        "tags":["Savory", "Contains-Meat", "Contains-Dairy", "Sandwich", "Turkey", "Cheese", "Bread", "Bakery", "Meat"], 
+        "image": "imgs/turkeySandwich.png"
+        
+        },
+        
+    {
+        "id": 25,
+        "category":"savory",
+        "item_name":"Caprese Panini",
+        "price_mmk":9500,
+        "stock":15, 
+        "tags":["Savory, Vegetarian, Contains-Dairy, Sandwich"],
+        "image": "imgs/capresePanini.png"
+        
+        },
+        
+    {
+        "id":26,
+        "category": "savory",
+        "item_name":"Chicken Pesto Wrap",
+        "price_mmk":10500,
+        "stock":20,
+        "tags":["Savory", "Contains-Meat", "Wrap", "Chicken", "Wrap", "Pesto"], 
+        "image":"imgs/chickenWrap.png"
+        
+        },
+        
+    {
+        "id":27,
+        "category": "savory",
+        "item_name":"Soup of the Day",
+        "price_mmk":7500,
+        "stock":15,
+        "tags":["Savory", "Soup"], 
+        "image": "imgs/soupDay.png"
+        
+        },
+        
+    {
+        "id":28,
+        "category": "savory",
+        "item_name":"Side Salad",
+        "price_mmk":6500,
+        "stock":20,
+        "tags":["Savory", "Vegetarian", "Vegan", "HealthySavory", "Vegetarian", "Vegan", "Healthy"], 
+        "image":"imgs/sideSalad.png"
+        
+        },
+        
+    {
+        "id":29,
+        "category": "cold-drinks",
+        "item_name":"Cold Brew",
+        "price_mmk":8500,
+        "stock":30,
+        "tags":["Drink", "Cold", "Caffeine", "Dairy-Free", "Black","Brew"], 
+        "image": "imgs/coldBrew.png"
+        
+        },
+        
+    {
+        "id": 30,
+        "category": "cold-drinks",
+        "item_name":"Lemonade",
+        "price_mmk":6500,
+        "stock":40,
+        "tags":["Drink", "Cold", "Sweet", "Kids-Friendly", "Dairy-Free", "Lemon"],
+        "image": "imgs/lemonade.png"
+        
+        },
+        
+    {
+        "id":31,
+        "category": "cold-drinks",
+        "item_name":"Sparkling Water",
+        "price_mmk":4500,
+        "stock":50,
+        "tags":["Drink", "Cold", "Zero-Calorie", "Kids-Friendly", "Dairy-Free"], 
+         "image": "imgs/water.png"
+        
+        },
+        
+    {
+        "id":32,
+        "category":"cold-drinks",
+        "item_name":"Fresh Orange Juice",
+        "price_mmk":7500,
+        "stock":30,
+        "tags":["Drink", "Cold", "Sweet", "Kids-Friendly", "Healthy", "Dairy-Free", "Orange", "Juice", "Drinks"], 
+        "image": "imgs/orangejuice.png"
+        
+        },
+        
+    {
+        "id": 33,
+        "category":"cold-drinks",
+        "item_name":"Chocolate Milk",
+        "price_mmk": 5500,
+        "stock": 40,
+        "tags":["Drink", "Cold", "Contains-Milk", "Sweet", "Kids-Friendly", "Chocolate", "Drinks"],
+        "image":"imgs/chocolateMilk.png"
+        
+        },
+        
+    
+    {
+        "id":34, 
+        "category": "cold-drinks",
+        "item_name":"Bottled Water",
+        "price_mmk": 3500,
+        "stock": 50,
+        "tags":["Drink", "Cold", "Zero-Calorie", "Kids-Friendly", "Dairy-Free"], 
+        "image": "imgs/water.png"
+        
+        },
+        
+    {
+        "id":36,
+        "category": "teas",
+        "item_name":"Earl Grey",
+        "price_mmk":6500,
+        "stock":30,
+        "tags":["Tea", "Hot", "Caffeine", "Dairy-Free", "earlGrey"], 
+        "image": "imgs/earlGrey.png"
+        
+        },
+        
+    {
+        "id":37,
+        "category": "teas",
+        "item_name":"Chamomile",
+        "price_mmk":6500,
+        "stock":30,
+        "tags":["Tea", "Hot", "Decaf", "Dairy-Free", "Relaxing", "Chamomile"],
+        "image": "imgs/Chamomile.png"
+        
+        },
+        
+        
+    {
+        "id":38,
+         "category": "teas",
+        "item_name":"Green Tea",
+        "price_mmk":6500,
+        "stock":30,
+        "tags":["Tea", "Hot", "Caffeine", "Dairy-Free", "Healthy", "Green"],
+        "image": "imgs/Greentea.png"
+        
+        },
+        
+    {
+        "id":39,
+        "category": "teas",
+        "item_name":"Peppermint",
+        "price_mmk":6500,
+        "stock":30,
+        "tags":["Tea", "Hot", "Decaf", "Dairy-Free", "Relaxing", "Mint", "Pepper"],
+        "image" : "imgs/peppermini.png"
+        
+        },
+        
+    {
+        "id":40,
+        "category": "teas",
+        "item_name":"Hibiscus Berry",
+        "price_mmk":6500,
+        "stock":30,
+        "tags":["Tea", "Hot", "Decaf", "Dairy-Free", "Berry"], 
+        "image": "imgs/berry.png"
+        
+        },
+        
+    {
+        "id":41,
+        "category": "teas",
+        "item_name":"Chai Latte",
+        "price_mmk":8500,
+        "stock":30,
+        "tags":["Tea", "Hot", "Contains-Milk", "Sweet", "Spiced", "chai", "latte", "chailatte"],
+        "image": "imgs/chaiLatte.png"
+        }
+    ]

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="location.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="nav.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+          <image class="logo_photo" src="imgs/logo.png"></image>
+        <ul class="ul_nav">
+            <li ><a href="home.html">Home</a></li>
+            <li ><a  href="Menu.html">Menu</a></li>
+            <li><a href="OurStory.html">Our Story</a></li>
+            <li><a class="active" href="location.html">Locations</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a href="Order.html">Order Now</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="body">
+
+        <div class="head_text">
+            <h5 id="h5_head">THE GOLDEN BEAN CAFE</h5>
+            <h1 id="h1_head">FIND US IN YANGON</h1>
+
+            <div class="a3btns">
+                <button id="btns" class="filter-btn active" data-category='all'>All Locations</button>
+                <button id="btns" class="filter-btn" data-category='flagship'>Flagship Store</button>
+                <button id="btns"  class="filter-btn" data-category='concept'>Concept Store </button>
+            </div>
+        </div>
+
+        <div class="a3cards">
+
+            <div class="a1stCard"  data-category="flagship">
+                <div class="card-heading">
+                    <image src="imgs/firsticon.png" class="icon"></image>
+                    <div class="card-title">
+                        <h1 class="h1_Card">LATHA TOWNSHIP</h1>
+                        <p class="p_Card">(FLAGSHIP MAP)</p>
+                    </div>
+                </div>
+                <hr class="hr">
+                
+                <a href=""><image  class="locationPic" src="imgs/location.png"></image></a>
+                    <h3  class="opening3_1"> ဆိုင်ဖွင့်ချိန်</h3>
+                <p class="openingp">ပိတ်ရက်မရှိ: နံနက် ၉:၀၀ - ညနေ ၆:၀၀</p>
+                <i class="fa-solid fa-phone"><h3 class="phone1">09671020431</h3></i>
+
+                <div class="copyBoard">
+                    <button class="copy-btn" id="clipBoard" onclick="copyToClipBoard('No. 59, Bo Gyoke Road, Latha Township, Yangon', 'Address Copied!')">
+                        <!-- Copy Icon (SVG) -->
+                        <svg class="icon0" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M16 1H4C2.9 1 2 1.9 2 3V17H4V3H16V1ZM19 5H8C6.9 5 6 5.9 6 7V21C6 22.1 6.9 23 8 23H19C20.1 23 21 22.1 21 21V7C21 5.9 20.1 5 19 5ZM19 21H8V7H19V21Z"/>
+                        </svg>
+                        <div class="text_btn">Copy Address</div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="a1stCard" data-category="flagship">
+                <div class="card-heading">
+                    <image src="imgs/secondicon.png" class="icon"></image>
+                    <div class="card-title">
+                        <h1 class="h1_Card">LATHA TOWNSHIP</h1>
+                        <p class="p_Card">(FLAGSHIP MAP)</p>
+                    </div>
+                </div>
+                <hr class="hr">
+
+                <div class="text_2ndCard">
+                    <h4 class="h4_text_2ndCard">လိပ်စာ</h4>
+                    <p class="p2_body_3rdCard"> အမှတ် ၅၉၊ ဗိုလ်ချုပ်လမ်း၊ လသာမြို့နယ်၊ ရန်ကုန်။
+                        No. 59, Bo Gyoke Road, Latha Township, Yangon.</p>
+
+                    <h4 class="h4_text_2ndCard">ဆိုင်ဖွင့်ချိန်</h4>
+                    <p class="p2_body_3rdCard">ပိတ်ရက်မရှိ : နံနက် ၉:၀၀ - ညနေ ၆:၀၀</p>
+                    <i class="fa-solid fa-phone"><h3 class="phone1">09671020431</h3></i>
+             <a href=""><img  class="locationPic2" src="imgs/loc.png"></a>
+                </div>
+
+                <div class="btns_2ndCard">
+
+                       <div class="copyBoard">
+                              <button class="copy-btn1" id="clipBoard" onclick="copyToClipBoard('No. 59, Bo Gyoke Road, Latha Township, Yangon', 'Address Copied!')">
+                                      <!-- Copy Icon (SVG) -->
+                                      <svg class="icon3" viewBox="0 0 24 24" fill="currentColor">
+                                          <path d="M16 1H4C2.9 1 2 1.9 2 3V17H4V3H16V1ZM19 5H8C6.9 5 6 5.9 6 7V21C6 22.1 6.9 23 8 23H19C20.1 23 21 22.1 21 21V7C21 5.9 20.1 5 19 5ZM19 21H8V7H19V21Z"/>
+                                      </svg>
+                                <div class="textB">Copy Address</div>
+                              </button>
+                         </div>
+
+                         <div class="viewHours" viewHours()>
+                            <button class="copy-btn1" onclick="alert('Latha Flagship Opening Hours: Mon-Sun (9:00 AM - 6:00 PM)')">
+                                <i class="fa-solid fa-clock"></i>
+                                <p class="textC">View Hours</p>
+                            </button>
+                         </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="a1stCard" data-category="concept">
+
+                    <div class="head_3rdCard">
+                        <image src="imgs/thirdicon.png" class="icon"></image>
+                        <div class="card-title">
+                            <h1 class="h1_3Card">SEEDCOAST BEDIRMOOON</h1>
+                            <p class="p_Card">(CONCEPT STORE)</p>
+                        </div>
+
+                    </div><hr class="hr">
+
+                    <div class="body_3rdCard">
+                        <h1 class="h4_text_2ndCard">
+                            လိပ်စာ
+                        </h1>
+                        <p class="p2_body_3rdCard">
+                            Secoaseel Bedimooon Complex၊ ရန်ကုန်။
+                            Secoaseel Bedimooon Complex, Yangon.
+                        </p>
+
+                        <h1 class="h4_text_2ndCard">ဆိုင်ဖွင့်ချိန်</h1>
+                        <p class="p2_body_3rdCard">တနင်္လာ - သောကြာ: ၁၀:၀၀ နံနက် - ၇:၀၀ ညနေ</p>
+
+                    </div>
+                    
+
+                    <a href="">                    <image src="imgs/locationSpace.png"  class="LocSpace"></image>
+</a>
+                    <div class="btns_3rdCard">
+
+                      <div class="copyBoard">
+                              <button class="copy-btn1" id="clipBoard" onclick="copyToClipBoard('Secoaseel Bedimooon Complex, Yangon', 'Address Copied!')">
+                                      <!-- Copy Icon (SVG) -->
+                                      <svg class="icon3" viewBox="0 0 24 24" fill="currentColor">
+                                          <path d="M16 1H4C2.9 1 2 1.9 2 3V17H4V3H16V1ZM19 5H8C6.9 5 6 5.9 6 7V21C6 22.1 6.9 23 8 23H19C20.1 23 21 22.1 21 21V7C21 5.9 20.1 5 19 5ZM19 21H8V7H19V21Z"/>
+                                      </svg>
+                                <div class="textB">Copy Address</div>
+                              </button>
+                         </div>
+
+                         <div class="viewHours" viewHours()  onclick="alert('Concept Store Opening Hours: Mon-Fri (10:00 AM - 7:00)')">
+                            <button class="copy-btn1">
+                                <i class="fa-solid fa-clock"></i>
+                                <p class="textC">View Hours</p>
+                            </button>
+
+
+                         </div>
+
+                    </div>
+
+
+            </div>
+
+                  <div id="toastNotification" class="toast">Address Copied to Clipboard!</div>
+
+        </div>
+
+    </div>
+
+      <footer>
+                <div class="footer-grid">
+
+                    <div class="footer-col">
+                        <div class="footer-head">Quick Links</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="menu.html">Shop</a></li>
+                                <li><a href="contactUs.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Account</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="create.html">Register</a></li>
+                                <li><a href="profile.html">Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Other</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="terms.html">Terms and Conditions</a></li>
+                                <li><a href="privacy.html">Privacy And Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Follow Us</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <a href="facebook.com"><image class="ft" src="imgs/facebooks.png"></image></a>
+                                <a href="discord.com"><image class="ft" src="imgs/discords.png"></image></a>
+                                <a href="telegram.com"><image class="ti" src="imgs/telegrams.png"></image></a>
+                                <a href="instagram.com"><image  class="ti" src="imgs/instagrams.png"></image></a>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="location_space">
+                        <p>Store Location:</p>
+                        <a href="googlemap.com"><image class="locpng" src="imgs/location.png"></image></a>
+                    </div>
+
+                <div class="cpoyright">
+                    <p id="cp">Copy Right 2026 | All Rights Reserved.</p> 
+                    <p id="cp1">Coded by HWWH.</p>
+                </div>
+                </div>
+            </footer>
+
+    <script src="location.js"></script>
+
+
+    
+</body>
+</html>

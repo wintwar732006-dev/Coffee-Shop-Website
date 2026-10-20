@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="nav.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+     <nav class="navbar">
+          <image class="logo_photo" src="imgs/logo.png"></image>
+        <ul class="ul_nav">
+            <li ><a href="home.html">Home</a></li>
+            <li ><a href="Menu.html">Menu</a></li>
+            <li><a href="OurStory.html">Our Story</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+            <li><a class="active" href="Order.html">Order Now</a></li>
+        </ul>
+
+    </nav>
+    <div class="body">
+        <div class="head">
+            <h5 id="h5_head">THE GOLDEN BEAN CAFE</h5>
+            <h1 id="h1_head">Order Now</h1>
+        </div>
+
+        <div class="menu-container"> 
+            <!-- Drink & Teas Column -->
+             <div class = "category-column"> 
+                <div class="column-header">
+                    <h2> Drink & Teas</h2>
+                    <span id="drinks-count" class="item-count">0 Items</span>
+                </div>
+                <div id="drinks-list"  class="items-list"> </div>
+             </div>
+
+             <!-- Pasteries and Savory Column-->
+              <div class="category-column">
+                <div class="column-header"> 
+                    <h2> Pasteries & Savory</h2>
+                    <span id="pasteries-count" class="item-count">0 Items</span>
+                </div>
+                <div id="pasteries-list" class="items-list"></div>
+              </div>
+
+              <!-- Third COlumn: Your Order-->
+             <div class="category-column cart-column" id="aaa">
+                <h2> Your Order</h2>
+
+                <div id="cart-content"> 
+                    <div id="empty-cart" class="empty-cart">
+                        <div class="cart-icon">🛒</div>
+                        <p>Your Cart is Empty
+                        </p>
+                    </div>
+
+                    <div id="cart-items" class="cart-items"></div>
+                    <div id="cart-footer" class="cart-footer" style="display: none;">
+                        <div class="total-row"> 
+                            <span>Total:</span>
+                            <span id="cart-total-price">0 MMK</span>
+                        </div>
+                        <button class="btn-checkout">Checkout</button>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <dialog class="receipt-dialog" id="receipt-dialog" aria-labelledby="receipt-title">
+        <section class="receipt-sheet">
+            <button class="receipt-close" id="receipt-close" type="button" aria-label="Close receipt">&times;</button>
+            <div class="receipt-brand">THE GOLDEN BEAN CAFE</div>
+            <h2 id="receipt-title">Order Receipt</h2>
+            <div class="receipt-meta">
+                <span id="receipt-number"></span>
+                <time id="receipt-date"></time>
+            </div>
+            <div class="receipt-rule"></div>
+            <div class="receipt-table-head" aria-hidden="true">
+                <span>Item</span><span>Qty</span><span>Amount</span>
+            </div>
+            <div class="receipt-lines" id="receipt-lines"></div>
+            <div class="receipt-total">
+                <span>Total</span>
+                <strong id="receipt-total"></strong>
+            </div>
+            <p class="receipt-thanks">Thank you for ordering with us.</p>
+            <div class="receipt-actions">
+                <button class="receipt-download" id="receipt-download" type="button">Download PDF</button>
+                <button class="receipt-done" id="receipt-done" type="button">Done</button>
+            </div>
+        </section>
+    </dialog>
+
+    
+
+
+
+     <footer>
+                <div class="footer-grid">
+
+                    <div class="footer-col">
+                        <div class="footer-head">Quick Links</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="menu.html">Shop</a></li>
+                                <li><a href="contactUs.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Account</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="create.html">Register</a></li>
+                                <li><a href="profile.html">Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Other</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <li><a href="faq.html">FAQ</a></li>
+                                <li><a href="terms.html">Terms and Conditions</a></li>
+                                <li><a href="privacy.html">Privacy And Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <div class="footer-head">Follow Us</div>
+                        <div class="footer-ul">
+                            <ul>
+                                <a href="facebook.com"><image class="ft" src="imgs/facebooks.png"></image></a>
+                                <a href="discord.com"><image class="ft" src="imgs/discords.png"></image></a>
+                                <a href="telegram.com"><image class="ti" src="imgs/telegrams.png"></image></a>
+                                <a href="instagram.com"><image  class="ti" src="imgs/instagrams.png"></image></a>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="location_space">
+                        <p>Store Location:</p>
+                        <a href="googlemap.com"><image class="locpng" src="imgs/location.png"></image></a>
+                    </div>
+
+                <div class="cpoyright">
+                    <p id="cp">Copy Right 2026 | All Rights Reserved.</p> 
+                    <p id="cp1">Coded by HWWH.</p>
+                </div>
+                </div>
+            </footer>
+    <script src="order.js"></script>
+</body>
+</html>
