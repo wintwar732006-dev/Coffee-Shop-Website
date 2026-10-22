@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="nav.js" defer></script>
+    <script src="account.js" defer></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,38 +21,44 @@
           <image class="logo_photo" src="imgs/logo.png"></image>
         <ul class="ul_nav">
             <li ><a href="home.html">Home</a></li>
-            <li ><a  href="Menu.html">Menu</a></li>
+            <li ><a  href="menu.html">Menu</a></li>
             <li><a href="ourstory.html">Our Story</a></li>
             <li><a  href="location.html">Locations</a></li>
-            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
             <li><a href="order.html">Order Now</a></li>
         </ul>
 
     </nav>
 
     
-    <div class="box">
+    <form class="box account-form" id="create-account-form" novalidate>
         <h1>Create Account</h1>
-        <div id="input>">
-        <input type="name" placeholder="Enter your name" class="name">
-        <input type="email" placeholder="Enter your email" class="email"><br>
-        <input type="phoneNumber" placeholder="Phone Number" class="number">
-        <div class="gender">
-            <p class="GM">     Gender: </p><div class="IPM"><input class="radio" type="radio"><p class="PM">Male</p> <input class="radio1" type="radio"><p class="PFM">Female</p></div>
-        </div><br>
-        <input type="password" placeholder="Enter your password" class="password">
-        <input type="password" placeholder = "Confirm your password" class="confirmPassword"><br>
-        <input type="message" placeholder="Delivery Address(Street, Township, City)" class="address">
+        <div class="form-row">
+            <input type="text" placeholder="Enter your name" class="name" name="name" autocomplete="name" required>
+            <input type="email" placeholder="Enter your email" class="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+            <input type="tel" placeholder="Phone Number" class="number" name="phone" autocomplete="tel" pattern="[0-9+() -]{7,20}" title="Enter a phone number using 7 to 20 digits or common phone symbols." required>
+            <fieldset class="gender">
+                <legend>Gender</legend>
+                <div class="gender-options">
+                    <label><input class="radio" id="gender-male" name="gender" value="male" type="radio" required><span>Male</span></label>
+                    <label><input class="radio1" id="gender-female" name="gender" value="female" type="radio"><span>Female</span></label>
+                </div>
+            </fieldset>
+        </div>
+        <div class="form-row">
+            <input type="password" placeholder="Enter your password" class="password" name="password" autocomplete="new-password" minlength="8" required>
+            <input type="password" placeholder="Confirm your password" class="confirmPassword" name="confirmPassword" autocomplete="new-password" minlength="8" required>
+        </div>
+        <input type="text" placeholder="Delivery Address (Street, Township, City)" class="address" name="address" autocomplete="street-address" required>
 
-        <div class="backBtn">
-            <a href="login.html"><button>Back to Login</button></a>
+        <div class="form-actions">
+            <a class="back-button" href="login.html">Back to Login</a>
+            <button type="submit">Create Account</button>
         </div>
-
-        <div class="CreateBtn">
-            <a href=""><button>Create Account</button></a>
-        </div>
-        </div>
-    </div>
+        <p class="form-status" id="create-account-status" role="status" aria-live="polite"></p>
+    </form>
     <footer>
                 <div class="footer-grid">
 

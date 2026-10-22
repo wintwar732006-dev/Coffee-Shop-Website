@@ -50,10 +50,12 @@
     margin-left: auto; 
 }
 .box{
-    height: 550px; 
+    height: auto;
+    min-height: 550px;
     width: 500px; 
     background-color: white; 
     border: 1px solid #e0e0e0; 
+    padding-bottom: 20px;
     margin: auto; 
     margin-top: 70px; 
     border-radius: 10px; 
@@ -171,6 +173,136 @@ input{
 .CreateBtn button:hover{
     background-color: #633f28; 
 }
+.box.account-form {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: min(calc(100% - 32px), 680px);
+    min-height: 0;
+    margin: 56px auto;
+    padding: 36px 40px;
+}
+
+.box.account-form h1 {
+    margin: 0 0 4px;
+}
+
+.box.account-form .form-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.box.account-form input:not([type="radio"]),
+.box.account-form .address {
+    box-sizing: border-box;
+    width: 100%;
+    height: 48px;
+    min-width: 0;
+    margin: 0;
+    padding: 0 14px;
+}
+
+.box.account-form .gender {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    min-width: 0;
+    min-height: 48px;
+    margin: 0;
+    padding: 4px 14px 8px;
+    border: 1px solid #bdb8b4;
+    border-radius: 8px;
+}
+
+.box.account-form .gender legend {
+    padding: 0 5px;
+    color: #6b625c;
+    font-size: 13px;
+}
+
+.box.account-form .gender-options {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.box.account-form .gender-options label {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    margin: 0;
+    color: #35271f;
+    cursor: pointer;
+}
+
+.box.account-form .gender-options input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    accent-color: #734a31;
+}
+
+.box.account-form .form-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.box.account-form .form-actions .back-button,
+.box.account-form .form-actions button {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 48px;
+    margin: 0;
+    padding: 10px 16px;
+    border: 1px solid #734a31;
+    border-radius: 9px;
+    background: #fff;
+    color: #734a31;
+    font: 700 15px Arial, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box.account-form .form-actions button {
+    background: #734a31;
+    color: #fff;
+}
+
+.box.account-form .form-actions .back-button:hover {
+    background: #f7f3ef;
+}
+
+.box.account-form .form-actions button:hover {
+    background: #633f28;
+}
+
+.box.account-form .form-status {
+    margin: 0;
+    color: #653e25;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+@media (max-width: 560px) {
+    .box.account-form {
+        gap: 14px;
+        padding: 28px 20px;
+    }
+
+    .box.account-form .form-row,
+    .box.account-form .form-actions {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 14px;
+    }
+}
+
 footer {
     position: relative; 
     margin-top: 200px; 

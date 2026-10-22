@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="nav.js" defer></script>
+    <script src="account.js" defer></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,10 @@
           <image class="logo_photo" src="imgs/logo.png"></image>
         <ul class="ul_nav">
             <li ><a href="home.html">Home</a></li>
-            <li ><a  href="Menu.html">Menu</a></li>
+            <li ><a  href="menu.html">Menu</a></li>
             <li><a href="ourstory.html">Our Story</a></li>
             <li><a  href="location.html">Locations</a></li>
-            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
             <li><a href="order.html">Order Now</a></li>
         </ul>
 
@@ -31,17 +32,22 @@
 
     
 
-    <div class="login_box">
+    <form class="login_box account-form" id="login-form" novalidate>
+        <h1>Login Form</h1>
+        <input class="email" name="email" type="email" placeholder="Enter your email" autocomplete="email" required>
+        <input class="password" name="password" type="password" placeholder="Enter your password" autocomplete="current-password" required>
+        <label class="login-options" for="remember-me">
+            <input type="checkbox" class="radioClass" id="remember-me" name="remember">
+            <span>Remember Me</span>
+        </label>
+        <button type="submit">Login</button>
+        <p class="form-status" id="login-status" role="status" aria-live="polite"></p>
 
-        <h1> Login Form</h1>
-        <input class="email" type="email" placeholder="Enter your email">
-        <input class="password" type="password" placeholder="Enter your password" maximum-letter="7">
-        <input type="radio" class="radioClass"><p id="p3">Remember Me</p>
-        <button>Login</button>
-
-        <a href="FPwd.html"><p id="p1">Forgot Password</p></a>
-        <a href="Create.html"><p id="p2">Create An Account?</p></a>
-    </div>
+        <div class="login-links">
+            <a href="FPwd.html">Forgot Password?</a>
+            <a href="create.html">Create an account</a>
+        </div>
+    </form>
     
   <footer>
                 <div class="footer-grid">

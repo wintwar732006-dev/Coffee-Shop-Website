@@ -25,12 +25,16 @@ function filterCards() {
         const categoryMatches = selectedCategory === 'all'
             || categories.includes(normalize(selectedCategory));
         const product = getProductForCard(card);
-        const tags = (product?.tags ?? [])
-            .flatMap(tag => String(tag).split(','))
-            .map(normalize);
-        const tagMatches = !searchTerm || tags.some(tag => tag.includes(searchTerm));
+        const searchableText = normalize([
+            card.querySelector('h2')?.textContent ?? '',
+            card.textContent ?? '',
+            card.getAttribute('category') ?? '',
+            product?.item_name ?? '',
+            ...(product?.tags ?? [])
+        ].join(' '));
+        const searchMatches = !searchTerm || searchableText.includes(searchTerm);
 
-        card.style.display = categoryMatches && tagMatches ? '' : 'none';
+        card.style.display = categoryMatches && searchMatches ? '' : 'none';
     });
 }
 

@@ -839,55 +839,55 @@ body.menu-page {
     overflow-wrap: anywhere;
 }
 
-.login_box,
-.box:has(.gender) {
+.login_box:not(.account-form),
+.box:has(.gender):not(.account-form) {
     width: min(100% - 32px, 500px);
     height: auto;
     margin: 48px auto;
     padding: 16px;
 }
 
-.login_box input:not([type="radio"]),
-.login_box button {
+.login_box:not(.account-form) input:not([type="radio"]):not([type="checkbox"]),
+.login_box:not(.account-form) button {
     display: block;
     width: 100%;
     margin: 16px 0;
 }
 
-.login_box a {
+.login_box:not(.account-form) a {
     float: none;
     display: inline-block;
     margin: 8px 12px 0 0;
 }
 
-.box:has(.gender) > div {
+.box:has(.gender):not(.account-form) > div {
     max-width: 100%;
 }
 
-.box:has(.gender) input:not([type="radio"]),
-.box:has(.gender) .address {
+.box:has(.gender):not(.account-form) input:not([type="radio"]),
+.box:has(.gender):not(.account-form) .address {
     width: calc(100% - 32px);
     margin: 12px 16px;
 }
 
-.box:has(.gender) .gender {
+.box:has(.gender):not(.account-form) .gender {
     width: calc(100% - 32px);
     margin: 12px 16px;
 }
 
-.box:has(.gender) .number {
+.box:has(.gender):not(.account-form) .number {
     float: none;
 }
 
-.box:has(.gender) .backBtn,
-.box:has(.gender) .CreateBtn {
+.box:has(.gender):not(.account-form) .backBtn,
+.box:has(.gender):not(.account-form) .CreateBtn {
     display: inline-block;
     width: calc(50% - 18px);
     vertical-align: top;
 }
 
-.box:has(.gender) .backBtn button,
-.box:has(.gender) .CreateBtn button {
+.box:has(.gender):not(.account-form) .backBtn button,
+.box:has(.gender):not(.account-form) .CreateBtn button {
     float: none;
     width: 100%;
     margin: 12px 0;

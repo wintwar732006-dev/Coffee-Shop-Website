@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="nav.js" defer></script>
+    <script src="contact.js" defer></script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,10 @@
           <image class="logo_photo" src="imgs/logo.png"></image>
         <ul class="ul_nav">
             <li ><a href="home.html">Home</a></li>
-            <li ><a href="Menu.html">Menu</a></li>
+            <li ><a href="menu.html">Menu</a></li>
             <li><a href="ourstory.html">Our Story</a></li>
             <li><a href="location.html">Locations</a></li>
-            <li><a class="active" href="contactUs.html">Contact Us</a></li>
+            <li><a class="active" href="contactus.html">Contact Us</a></li>
             <li><a href="order.html">Order Now</a></li>
         </ul>
 
@@ -58,11 +59,12 @@
 
         <div class="box">
             <div class="head_box"><h2>Message Us</h2></div>
-            <form class="contact-form">
-                <input class="contact-field" type="text" name="name" placeholder="Name" aria-label="Name">
-                <input class="contact-field" type="email" name="email" placeholder="Email" aria-label="Email">
-                <textarea class="contact-field contact-message" name="message" placeholder="Your Message" aria-label="Your Message"></textarea>
-                <button class="btnbx2" type="button">SEND MESSAGE</button>
+            <form class="contact-form" id="contact-form">
+                <input class="contact-field" type="text" name="name" placeholder="Name" aria-label="Name" autocomplete="name" required>
+                <input class="contact-field" type="email" name="email" placeholder="Email" aria-label="Email" autocomplete="email" required>
+                <textarea class="contact-field contact-message" name="message" placeholder="Your Message" aria-label="Your Message" required></textarea>
+                <button class="btnbx2" type="submit">SEND MESSAGE</button>
+                <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
             </form>
         </div>
 
