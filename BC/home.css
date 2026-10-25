@@ -354,128 +354,28 @@
     align-items: center;
     margin:auto; 
 }
-#h2OfGraphOf3Section_1{
+.h2OfGraphOf3Section_1{
     font-family: inter;
     font-size: 25px;
     color: #5a361f;
     font-weight: bold; 
     margin-left: 0px; 
 }
-#pOfGraphOf3Section_1 {
+.pOfGraphOf3Section_1 {
     font-family: inter; 
     font-size: 14px; 
     color: rgba(0, 0, 0, 0.644); 
     font-weight: thin; 
     line-height: 20px;
 }
-#h5ofGraphOf3Section_1{
+.h5ofGraphOf3Section_1{
     font-family: inter; 
     font-weight: bold; 
     color: black; 
     font-size: 20px; 
 }
 
-.GraphOf3Section_2{
-    width: 800px; 
-    height:  300px; 
-    border: 1px solid;
-    display: flex; 
-    margin: auto; 
-    border-radius: 20px; 
-    border: 0.5px solid rgba(85, 81, 81, 0.187); 
-    box-shadow: 2px 2px 50px rgba(15, 15, 15, 0.039);
 
-}
-.img{
-    padding: 30px; 
-    border-radius: 45px;
-}
-.text_GraphOf3Section_2{
-    align-items: center;
-    margin:auto; 
-}
-#h2OfGraphOf3Section_2{
-    font-family: inter;
-    font-size: 25px;
-    color: #5a361f;
-    font-weight: bold; 
-    margin-left: 0px; 
-}
-#pOfGraphOf3Section_2 {
-    font-family: inter; 
-    font-size: 14px; 
-    color: rgba(0, 0, 0, 0.644); 
-    font-weight: thin; 
-    line-height: 20px;
-}
-#h5ofGraphOf3Section_2{
-    font-family: inter; 
-    font-weight: bold; 
-    color: black; 
-    font-size: 20px; 
-}
-
-.GraphOf3Section_3{
-    width: 800px; 
-    height:  300px; 
-    border: 1px solid;
-    display: flex; 
-    margin: auto; 
-    border-radius: 20px; 
-    border: 0.5px solid rgba(85, 81, 81, 0.187); 
-    box-shadow: 2px 2px 50px rgba(15, 15, 15, 0.039);
-
-}
-.img{
-    padding: 30px; 
-    border-radius: 45px;
-}
-.text_GraphOf3Section_3{
-    align-items: center;
-    margin:auto; 
-}
-#h2OfGraphOf3Section_3{
-    font-family: inter;
-    font-size: 25px;
-    color: #5a361f;
-    font-weight: bold; 
-    margin-left: 0px; 
-}
-#pOfGraphOf3Section_3 {
-    font-family: inter; 
-    font-size: 14px; 
-    color: rgba(0, 0, 0, 0.644); 
-    font-weight: thin; 
-    line-height: 20px;
-}
-#h5ofGraphOf3Section_3{
-    font-family: inter; 
-    font-weight: bold; 
-    color: black; 
-    font-size: 20px; 
-}
-
-.a2arrows  .box1{
-    background-color: white; 
-    border: 1px solid rgb(54, 50, 50); 
-    border-radius: 50px; 
-    width: 40px; 
-    height: 40px; 
-    text-align: center; 
-     margin-top: -780px; 
-    margin-left: 220px; 
-}
-.a2arrows  .box2{
-    background-color: white; 
-    border: 1px solid rgb(54, 50, 50); 
-    border-radius: 50px; 
-    width: 40px; 
-    height: 40px; 
-    text-align: center; 
-    margin: auto; 
-    margin-top: -800px; 
-    margin-right: 200px; 
-}
 .a5thSection{
     margin-top: 100px; 
     border-top: 1px solid rgba(128, 128, 128, 0.55);
@@ -638,4 +538,23 @@ footer{
        background-color: #3f2718 ; 
         border: 1px solid #efefef; 
         
-    }
+    } 
+.GraphOf3Section button{
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 1rem; 
+    background-color: rgba(0, 0, 0, 0.804); 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    padding: 10px 15px; 
+    border-radius: 1000px; 
+}
+.prev{
+    left: 0; 
+
+}
+.next{
+    right: 0; 
+}
